@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+}
+.container-input{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 6px;
+
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 8px;
+    border: 1px solid rgb(219, 199, 199);
+    outline: 0;
+    border-radius: 5px;
+
+}
+
+button{
+    border: 0px;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(207, 200, 200);
+}
+
+table td img{
+    width: 22px;
+    margin-left: 5px;
+}
