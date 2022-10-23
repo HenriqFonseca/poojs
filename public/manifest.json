@@ -1,9 +1,9 @@
 {
-    "name": "TestePWA",
+    "name": "POO-JS",
     "short_name": "TestePWA",
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "/index.html",
   
