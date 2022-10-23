@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
     console.log("main.js => Vamos registrar o service worker!!!");
-    navigator.serviceWorker.register('/service-worker-minimum-to-intall-pwa.js')
+    navigator.serviceWorker.register('sw.js')
         .then(registration => {
             console.log("main.js => Service Worker Registrado com Sucesso");
             console.dir(registration);
