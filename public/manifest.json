@@ -3,7 +3,7 @@
     "short_name": "TestePWA",
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
-    "display": "fullscreen",
+    "display": "standalone",
     "scope": "index.html",
     "start_url": "https://poojs.herokuapp.com/",
   
