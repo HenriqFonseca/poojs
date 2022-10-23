@@ -4,7 +4,7 @@
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
     "display": "standalone",
-    "scope": "index.html",
+    "scope": "https://poojs.herokuapp.com/",
     "start_url": "https://poojs.herokuapp.com/",
   
 
