@@ -116,9 +116,6 @@ class gato extends animal{
         console.log("                  ")
     }
 
-    miar(){
-        return alert("miau");
-    }
 }
 
 // GATO
