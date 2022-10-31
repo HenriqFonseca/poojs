@@ -117,7 +117,7 @@ class gato extends animal{
     }
 
     miar(){
-        return "miaau"
+        return alert("miau");
     }
 }
 
