@@ -115,6 +115,10 @@ class gato extends animal{
         console.log("=================")
         console.log("                  ")
     }
+
+    miar(){
+        return "miaau"
+    }
 }
 
 // GATO
