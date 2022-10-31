@@ -34,7 +34,6 @@ class animal{
             alert("Idade inválida")
         }else{
             this.idade=i
-
         }
     }
     get getIdade(){
