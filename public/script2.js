@@ -66,6 +66,10 @@ class cachorro extends animal{
         return this.nome
     }
 
+    latir (){
+        return console.log("AU AU AU")
+    }
+
 }
 // CACHORRO 1
 let dog1 = new cachorro()
@@ -73,6 +77,7 @@ let dog1 = new cachorro()
 dog1.setEspecie = 1 // 1 = labrador
 dog1.setidade=13    //definir idade
 dog1.setNome= "toby" //definir nome
+dog1.latir()
 console.log("Nome do Animal: " + dog1.getNome)
 dog1.info()
 
@@ -116,6 +121,10 @@ class gato extends animal{
         console.log("                  ")
     }
 
+    miar(){
+        return console.log("MIAAAAU")
+    }
+
 }
 
 // GATO
@@ -124,4 +133,5 @@ cat1.setNomecat = "felizardo"
 cat1.setAnimal=2    // Define q ele é um gato
 cat1.setidade=3     //idade do gato
 cat1.setEspecie=3   //siames
+cat1.miar()
 cat1.info()
